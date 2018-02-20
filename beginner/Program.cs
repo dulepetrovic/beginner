@@ -6,9 +6,20 @@ namespace beginner
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Idemoo");
-            Console.WriteLine("jaka prica");
+            /* if conditional */
+
+            int hour = 10;
+            if (hour > 0 && hour < 12)
+            {
+                Console.WriteLine("It's morning");
+            }
+            else if (hour >= 12 && hour < 18)
+            {
+                Console.WriteLine("It's afternoon");
+            }else
+            {
+                Console.WriteLine("It's evening");
+            }
         }
     }
 }
