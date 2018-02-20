@@ -8,6 +8,7 @@ namespace beginner
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Idemoo");
+            Console.WriteLine("jaka prica");
         }
     }
 }
